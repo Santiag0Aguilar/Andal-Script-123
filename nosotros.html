@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Andal Script 123s</title>
+    <link rel="stylesheet" href="build/css/index.css" />
+    <link rel="icon" href="build/imagenes/logo.png" type="image/svg" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  </head>
+  <body>
+    <header class="headerNoneVideo">
+      <div class="header__NoneVideo-nav content">
+        <a href="index.html">
+          <h1>Andal Script 123</h1>
+        </a>
+        <div class="mobileversion">
+          <img src="build/imagenes/barras.svg" alt="Barras" />
+        </div>
+        <div class="DarkModeAndNav">
+          <img
+            class="dark-mode"
+            src="build/imagenes/dark-mode.svg"
+            alt="dark-mode"
+          />
+          <nav class="Header__Nav">
+            <a href="nosotros.html">Nosotros</a>
+            <a href="prendas.html">Nuestras prendas</a>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <main
+      data-aos="fade-up"
+      data-aos-duration="2000"
+      class="content NosotrosContent"
+    >
+      <h2>Conoce sobre Nosotros</h2>
+
+      <div class="Nosotros">
+        <div class="Nosotros__imagen">
+          <img src="build/imagenes/PlayeraDelante.JPG" alt="Candles" />
+        </div>
+        <div class="Nosotros__Info">
+          <h4>Andal Script 123</h4>
+
+          <p>
+            En Andal Script 123, creamos una nueva forma de expresar identidad y
+            cultura urbana a través del street wear, diseñando ropa de estilo
+            vintage que conecta con adolescentes y jóvenes que buscan destacar y
+            formar parte de algo auténtico. Nuestra visión es ser la marca de
+            street wear más reconocida en Apaxco, difundiendo un estilo poco
+            común en México, pero cargado de calidad, diseño y personalidad.
+            Cada prenda de Andal Script 123 está hecha para ofrecer estilo,
+            comodidad y autenticidad. Incorporamos cortes modernos como crop
+            tops para hombre, tops para mujer, pantalones baggy y shorts ¾, todo
+            con un gramaje superior y estampados en serigrafía de alta calidad.
+            Nuestro objetivo es que cada pieza no solo vista, sino que cuente
+            una historia de individualidad y pertenencia. Más que ropa, Andal
+            Script 123 representa una comunidad donde el street wear se
+            convierte en una forma de vida. Buscamos fomentar el sentido de
+            pertenencia, el orgullo de ser diferentes y el impulso de expandir
+            la cultura urbana en México. Andal Script 123: vístete de actitud,
+            pertenencia y estilo.
+          </p>
+        </div>
+      </div>
+    </main>
+
+    <main
+      data-aos="zoom-in-up"
+      data-aos-duration="2000"
+      class="Nosotros content"
+    >
+      <h2>Mas sobre Andal Script 123</h2>
+
+      <div class="Nosotros__Informcion">
+        <div class="Nosotros_ContenedorInfo">
+          <img src="build/imagenes/graffiti.svg" alt="Icono uno" />
+          <h3>Cultura Urbana</h3>
+          <p>
+            Expandimos la cultura mexicana a través de ropa Street Wear que
+            refleja personalidad, estilo y pertenencia para adolescentes y
+            jóvenes.
+          </p>
+        </div>
+        <div class="Nosotros_ContenedorInfo">
+          <img src="build/imagenes/tag.svg" alt="Icono dos" />
+          <h3>Calidad y Estilo</h3>
+
+          <p>
+            Diseñamos prendas vintage de alta calidad, con cortes modernos como
+            crop tops y baggy pants, pensadas para la comodidad y expresión
+            auténtica.
+          </p>
+        </div>
+        <div class="Nosotros_ContenedorInfo">
+          <img src="build/imagenes/logo.png" alt="Icono tres" />
+          <h3>Comunidad</h3>
+
+          <p>
+            Más que ropa, creamos una comunidad donde jóvenes se identifican, se
+            expresan y comparten un mismo estilo de vida y valores.
+          </p>
+        </div>
+      </div>
+    </main>
+
+    <section
+      class="ubicacion content"
+      data-aos="flip-up"
+      data-aos-duration="1000"
+    >
+      <h2>Nuestra ubicacion</h2>
+
+      <div id="map" style="height: 400px; width: 100%"></div>
+    </section>
+
+    <footer class="footer">
+      <div class="Nav__Footer content">
+        <h1>Andal Script 123 &copy;</h1>
+        <nav class="Header__Nav">
+          <a href="nosotros.html">Nosotros</a>
+          <a href="anuncios.html">Nuestras prendas</a>
+        </nav>
+      </div>
+    </footer>
+
+    <script src="build/scripts/app.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
